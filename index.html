@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Image Slider</h1>
+    <p>Explore beautiful images</p>
+
+    <div class="slider">
+      <div class="slides">
+        <img
+          src="https://picsum.photos/id/1018/800/400"
+          alt="Mountain landscape"
+        />
+        <img src="https://picsum.photos/id/1015/800/400" alt="Mountain river" />
+        <img
+          src="https://picsum.photos/id/1019/800/400"
+          alt="Nature landscape"
+        />
+        <img
+          src="https://picsum.photos/id/1020/800/400"
+          alt="Forest landscape"
+        />
+      </div>
+
+      <button id="prev" aria-label="Previous image">&#10094;</button>
+      <button id="next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <div id="dots"></div>
+
+    <script src="slider.js"></script>
+  </body>
+</html>
